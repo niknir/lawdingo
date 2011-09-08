@@ -19,7 +19,8 @@ end
 gem "therubyracer"
 gem 'jquery-rails'
 gem "paperclip", "~>2.3.8"
-
+gem 'aws-s3'
+gem 'pg'
 # Use unicorn as the web server
 # gem 'unicorn'
 
