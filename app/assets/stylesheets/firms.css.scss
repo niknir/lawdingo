@@ -1,0 +1,89 @@
+// Place all the styles related to the firms controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+  margin:0;
+  padding:0;
+  background:#fff;
+  
+  
+}
+#page{
+
+margin:0 auto;
+width:60%;
+font-size:80%;
+#header{
+background:#FAFAFA;
+height:80px;
+#hleft{
+float:left;
+width:49%;
+  h2{
+    a{
+    margin-left:20px;
+      text-decoration:none;
+      color:#000;
+      font-size:100%;
+      
+    }
+  }
+}
+#hright{
+margin-top:20px;
+  width:49%;
+  float:right;
+  text-align:right
+}
+  
+}
+#main_content{
+.notice{
+color:#126021;
+  
+}
+
+.left{
+width:15%;
+padding:5px;
+float:left;
+  
+}
+
+.right{
+width:80%;
+float:left;
+
+padding:5px;
+
+  
+  .list_item{
+   
+   border-bottom:solid 1px #000;
+    margin:5px 0;
+    padding:10px 0;
+    
+    
+  }
+  form{
+    background:#fafafa;
+    padding:20px;
+    
+    
+  }
+}
+  
+}
+
+#footer{
+clear:both;
+  text-align:center;
+  color:#fff;
+  height:25px;
+  background:#000;
+  a{color:#fff;}
+  
+}
+  
+}

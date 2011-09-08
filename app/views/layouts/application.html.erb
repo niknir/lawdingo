@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Law Dingo</title>
+    <%= stylesheet_link_tag "application" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div id="page">
+      <!--div id="header">
+        <div id="hleft">
+          <h2><%#= link_to "Law Dingo", root_path %></h2>
+        </div>
+        <div id="hright">
+          <%#= link_to "Add New Lawyer Profile", new_admin_lawyer_path, :title =>'Add New Profile!' %>
+        </div>
+      </div-->
+      <div id="main_content">
+      <div class="left">
+      </div>
+      <div class="right">
+       <% if flash[:notice] %>
+        <div class="notice">
+          <%= flash[:notice] %>
+        </div>
+      <% end %>
+      <%= yield %>
+      </div>
+      </div>
+    <!--div id="footer">
+    </div-->
+    </div>
+      </body>
+</html>
+
